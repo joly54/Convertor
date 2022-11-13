@@ -1,9 +1,4 @@
 let flag=0;
-document.addEventListener('visibilitychange', function () {
-    if (document.visibilityState === 'hidden') {
-	alert("Changed")
-    }
-});
 document.getElementById("but1").click();
 const colorpicker = document.getElementById('inputcol');
 colorpicker.addEventListener('input', ()=>{pic();});
