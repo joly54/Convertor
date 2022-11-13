@@ -1,0 +1,77 @@
+.menu{
+    height:75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inputs-box{
+    margin-left: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    display: flex;
+    justify-content: left;
+  }
+  .all{
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 25px;
+    
+    width: 800px;
+    height: 180px;
+    background-color: rgba(180, 23, 211, 0.5);
+  }
+  .out-box{
+    margin-left: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: left;
+  }
+  select {
+    border-radius: 5px;
+    height: 44px;
+    padding:10px;
+    border-radius:10px;
+  }
+  .name{
+    border-radius: 5px;
+    height: 44px;
+    border-radius:10px;
+    width:8.5vh;
+  }
+  input:last-of-type{
+    margin-bottom: 0;
+  }
+ input{
+    margin-right: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .Boxed{
+    width:120px;
+    height:15px;
+    padding:20px;
+  }
+  .inputcol{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    height:40px;
+  }
+  .hide{
+    display: none;
+  }
+button{
+  border-width: 3px;
+  border-radius: 10px;
+  margin-left: 5px;
+  height:44px;
+}
+.seltr{
+  border-width: 3px;
+  border-color: rgb(0, 255, 255);
+}
+.inf{
+  width: 83px;
+}
